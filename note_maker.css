@@ -1,0 +1,121 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    border: coral;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+    
+}
+
+p{
+    font-size: 10px;
+    line-height: 2;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1{
+    font-size: 3rem;
+    color: brown;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header form{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+form > *{
+    margin-bottom: 5px;
+    outline: crimson;
+    font-size: 1.4rem;
+    padding: 7px;
+    border: 2px double black;
+    border-radius: 3px;
+}
+
+form textarea{
+    padding: 8px 0 40px 6px;
+    font-family: cursive;
+}
+
+form button{
+    background-color: coral;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+form button:hover{
+    background-color: plum;
+}
+
+.notes{
+    padding: 1rem;
+    background-color: rosybrown;
+    border-radius: 5px;
+    margin: 1rem 0;
+    color: black;
+    border: solid white;
+    
+
+}
+
+.note-counter,
+.description{
+    font-size: 1.5rem;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.dlt-btn{
+    padding: 7px;
+    margin:5px;
+    background-color: yellow;
+    outline: black;
+    border: solid black;
+    border-radius: 3px;
+    color: green;
+    cursor: pointer;
+}
+
+.edit-btn{
+    background-color: hotpink;
+    padding: 7px;
+    margin:5px;
+    outline: black;
+    border: solid black;
+    border-radius: 3px;
+    color: green;
+    cursor: pointer;
+
+}
+
+.dlt-btn,
+.edit-btn:hover{
+    background-color: grey;
+}
